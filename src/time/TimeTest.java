@@ -12,7 +12,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 class TimeTest {
 	
-	// good test for milliseconds
+	// good test for milliseconds///
 	@Test
 	public void testGetMillisecondsGood() {
 		int milliseconds = Time.getMilliseconds("10:20:30:007");
